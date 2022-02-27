@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <title>Portfolio</title>
+  </head>
+  <body class="dark" >
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon_theme" class="toggle-theme_icon">
+          <p id="toggle-text"  class="toggle-theme_text">
+            Dark Mode
+          </p>
+        </div>
+      </div>
+      <div  class="flags">
+        <div class="flags__items" data-language="es">
+          <img src="/assets/icons/es.svg" alt="ni-flags" class="flags__img">
+        </div>
+        <!-- <div class="flags__items" data-language="en">
+          <img src="/assets/icons/en.svg" alt="us-flags" class="flags__img">
+        </div> -->
+      </div>
+       <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors_item colors_item--blue"></div>
+        <div data-color="hsl(120, 84%, 56%)" class="colors_item colors_item--green"></div>
+        <div data-color="hsl(59, 84%, 56%)" class="colors_item colors_item--yellow"></div>
+        <div data-color="hsl(34, 84%, 56%)" class="colors_item colors_item--orange"></div>
+
+       </div>
+    </header>
+
+    <main class="main">
+      <section class="column column--left">
+        <!--PROFILE CARD-->
+        <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/foto-perfil.jpg" alt="imagen">
+          <div class="card__header">
+            <h2 class="card__title">
+              Jose Lino Padilla Gomez
+            </h2>
+            <p class="card__subtitle"data-section="profile" data-value="rol" > Diseñador Web</p>
+          </div>
+          <div class="card__body">
+            <div class="card_link">
+
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:proyectolinux3@gmail.com">proyectolinux3@gmail.com</a>
+            </div>
+            <div class="card_link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:+505 7715-6102">+505 7715-6102</a>
+            </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Mas de 2 años de experiencia en la rama del diseño y desarrollo web profesional. <br>Mi proposito es brindar un servicio de calidad en los diseños, dando así a mis clientes un sitio web profesional.
+            </br>
+          </div>
+        </div>  
+        </article>
+        <arcticle class="card card--experience">
+          <h2 class="card_title" data-section="experience" data-value="first-experience-title">Experiencia</h2>
+          <div class="experience">
+            <img class="experience_image" src="assets/images/logo.png" alt="logo">
+            <div class="exoerience_info">
+              <p class="experience_time" data-section="experience" data-value="first-job-date">
+               Marzo 2018 - Noviembre 2018.
+              <h3 class="experience_job" data-section="experience" data-value="first-job-title"> Diseñador Web con Wordpress  </h3>
+                <p class="experience_description" data-section="experience" data-value="first-job-description" >
+                  Me desempeñaba en la creación de sitios web para diferentes clientes del mercado estadounidense. utilizaba diferentes herramientas de maquetado tales como: Be-theme, Composer, elementor entre otros.
+                </p>
+              </p>
+            </div>
+          </div>
+          <div class="experience">
+            <img class="experience_image" src="assets/images/logo.png" alt="logo">
+            <div class="exoerience_info">
+              <p class="experience_time" data-section="experience" data-value="second-job-date">
+               Diciembre 2020 - Actualidad.
+              <h3 class="experience_job" data-section="experience" data-value="second-job-title"> Diseñador Web con HTML, CSS y Wordpress  </h3>
+                <p class="experience_description" data-section="experience" data-value="second-job-description">
+                  Utilizo difentes fuentes de codigo para la construcción de sitios web profesionales a base de html y css además de utilizar la plataforma de wordpress. Uso herramientas programas de diseño tales como: Photoshop, ilustrador además tengo una minima experiencia en edición de videos con el programa after effects.
+                </p>
+              </p>
+            </div>
+          </div>
+        </arcticle>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">3</span>
+            </div>
+           <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">HTML</p>
+                <div class="skills__bar skills__bar--80" ></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">CSS</p>
+                <div class="skills__bar skills__bar--80" ></div>
+             </div>
+             <div class="skills__item">
+              <p class="skills__tech">Boostrap</p>
+              <div class="skills__bar skills__bar--80" ></div>
+           </div>
+           </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">WordPress</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">3</span>
+            </div>
+           <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">Elementor</p>
+                <div class="skills__bar skills__bar--90" ></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Composer</p>
+                <div class="skills__bar skills__bar--60" ></div>
+             </div>
+             <div class="skills__item">
+              <p class="skills__tech">Bethem</p>
+              <div class="skills__bar skills__bar--80" ></div>
+           </div>
+           </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Design</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start--level">0</span>
+              <span class="skills__start--level">3</span>
+            </div>
+           <div class="skills">
+              <div class="skills__item">
+                <p class="skills__tech">Photoshop</p>
+                <div class="skills__bar skills__bar--80" ></div>
+              </div>
+              <div class="skills__item">
+                <p class="skills__tech">Illustrator</p>
+                <div class="skills__bar skills__bar--80" ></div>
+             </div>
+           </div>
+           </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container"> 
+            <img src="/assets/images/iempire-pressure-washing-llc.png" alt="page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#ONE-PAGE</span>
+            </div>
+            <h2 class="card_title" data-section="projects" data-value="first-project-title" >Servicios de limpieza</h2>
+            <p class="card_text" data-section="projects" data-value="first-description-project"> Es una página one page totalmente responsive, tiene habilitado el boton de whatsapp directamente para que los usuarios puedan chatiar directamente con el cliente, se utilizaron imágenes comerciales que se editaron mediante el programa de photoshop. </p>
+            <p class="card_text">Además de ello se utilizo diferentes codigos para darle estlilo a la Página haciendola más atractiva para los usuarios. La plantilla que se utlizo esta en un repositorio llamado themelock.</p>
+            <div class="buttons">
+              <a href="http://iempirepressurewashingllc.com/" class="button button--primary" data-section="projects" data-value="first-first-button">Ver el sitio Web</a>
+              <a href="https://internationalmarketinggroupusa.com/" class="button button--ghost" data-section="projects" data-value="first-second-button">Sitio web de la compñía</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container"> 
+            <img src="/assets/images/cash-for--junkcar.png" alt="page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#Wordpress</span>
+              <span class="project_tag">#Elementor</span>
+              <span class="project_tag">#Slider-revolution</span>
+            </div>
+            <h2 class="card_title" data-section="projects" data-value="second-project-title">Autos en mal estado</h2>
+            <p class="card_text" data-section="projects" data-value="second-description-project"> Es una página con 4 pestañas (Home/About/Services/Contact), La página cuenta son animación al inicio creado con el plugin de slider revolution. Es una página totalmente responciva creada con la plataforma de Wordpress </p>
+            <p class="card_text">Se utilizaron diferentes plugins como por ejemplo: Chatty, elementor-pro, elementor, envato entre otros. No cuenta con galería ya que se utilizaron imágenes comerciales.</p>
+            <div class="buttons">
+              <a href="https://cashforjunkcarsinarizona.com/" class="button button--primary" data-section="projects" data-value="second-first-button">Ver el sitio Web</a>
+              <a href="https://internationalmarketinggroupusa.com/" class="button button--ghost"  data-section="projects" data-value="second-second-button">Sitio web de la compñía</a>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container"> 
+            <img src="/assets/images/zion-landscaping-services-llc.png" alt="page" class="card_image">
+          </div>
+          <div class="project">
+            <div class="project_tags">
+              <span class="project_tag">#HTML</span>
+              <span class="project_tag">#CSS</span>
+              <span class="project_tag">#ONE-PAGE</span>
+            </div>
+            <h2 class="card_title" data-section="projects" data-value="third-project-title">Paisajismo</h2>
+            <p class="card_text" data-section="projects" data-value="third-description-project"> Es un sitio hecho con la estructuctura HTML y CSS. La página cuenta con 5 pestañas (Home, About, Services, Gallery, Contact) contiene iframe para la traducciión de inglés a español.</p>
+            <p class="card_text">Además de ello se utilizo diferentes codigos para darle estlilo a la Página haciendola más atractiva para los usuarios. La plantilla que se utlizo esta en un repositorio llamado themelock.</p>
+            <div class="buttons">
+              <a href="http://zionlandscapingservicesllc.com/" class="button button--primary" data-section="projects" data-value="third-first-button">Ver el sitio Web</a>
+              <a href="https://internationalmarketinggroupusa.com/" class="button button--ghost" data-section="projects" data-value="third-second-button">Sitio web de la compñía</a>
+            </div>
+          </div>
+        </article>
+        
+       
+       
+       
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
